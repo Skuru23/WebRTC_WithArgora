@@ -1,0 +1,44 @@
+.wrapper{
+    display:grid;
+    justify-content: center;
+}
+.list-method{
+    justify-content: center;
+    width: 360px;
+}
+.text-center{
+    text-align: center;
+}
+.items-center{
+    align-items: center;
+}
+.inner-button{
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.button-icon{
+    display: flex;
+    justify-content: center;
+    min-width: 26px;
+}
+.space{
+    width: 10px;
+}
+.email-login-button{
+    text-align: left;
+    display: block;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    margin: 5px;
+    width: calc(100% - 10px);
+    overflow: hidden;
+    padding: 0px 10px;
+    user-select: none;
+    height: 50px;
+    background: white;
+}

@@ -1,0 +1,30 @@
+.room-tool-bar{
+    display: flex;
+    flex-direction: row;
+    min-height: 60px;
+    align-items: center;
+}
+.tool-bar-button{
+    min-height: 30px;
+}
+.tool-space{
+    min-width: 850px;
+    height: 100%;
+}
+.vid-container{
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+
+.participants{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 150px;
+}
+
+.vid-wrapper{
+    width: 100%;
+    background-color: #ddd;
+}
